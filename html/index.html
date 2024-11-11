@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/19364ba5a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main id="main">
+      <header class="header">
+        <h1>Let's play Rock-Paper-Scissor!!!</h1>
+      </header>
+      <section id="image">
+        <div class="icon">
+          <button id="rockBtn" class="btn" type="button">
+            <i id="rock" class="fa-solid fa-hand-back-fist"></i>
+          </button>
+          <label for="rock">Rock</label>
+        </div>
+        <div class="icon">
+          <button id="paperBtn" class="btn" type="button">
+            <i class="fa-solid fa-hand"></i>
+          </button>
+          <label for="rock">Paper</label>
+        </div>
+        <div class="icon">
+          <button id="scissorBtn" class="btn" type="button">
+            <i class="fa-sharp fa-solid fa-hand-scissors"></i>
+          </button>
+          <label for="rock">Scissor</label>
+        </div>
+      </section>
+      <section class="score">
+        <div class="scoreValue">
+          <label for="yourScore">You</label>
+          <p id="yourScore" class="pscore">0</p>
+        </div>
+        <div class="scoreValue">
+          <label for="compScore">Comp</label>
+          <p id="compScore" class="pscore">0</p>
+        </div>
+      </section>
+      <section class="message">
+        <p id="resultMessage"></p>
+      </section>
+    </main>
+  </body>
+  <script src="../script/script.js"></script>
+</html>

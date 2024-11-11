@@ -1,0 +1,79 @@
+#image {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+
+.btn {
+    cursor:pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#rockBtn {
+    background-color: deeppink;
+}
+
+#paperBtn {
+    background-color: blueviolet;
+}
+
+#scissorBtn {
+    background-color: cornflowerblue;
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreValue {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: 0;
+    justify-content: center;
+}
+
+.message {
+    width: 100%;
+    text-align: center;
+}
+
+.resultMessageRed {
+    display: inline;
+    background-color: red;
+    color: white;
+}
+
+.resultMessageGreen {
+    display: inline;
+    background-color: greenyellow;
+    color: black;
+}
+
+.resultMessageNeutral {
+    display: inline;
+    background-color: blue;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin: 10vh;
+}
